@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Color Game Project</h1>
+
+        <h3>Winning Color is <span class="winning-color">blue</span></h3>
+    </div>
+
+    <div class="display">
+        <button class="play-again">Play Again</button>
+        <span class="win">Wrong</span>
+        <button class="hard">Hard</button>
+        <button class="easy">Easy</button>
+        <a id="right-answer" class="hint" href="#popup">Right Answer</a>
+    </div>
+
+    <div class="square-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="content">
+            <a href="#" class="delete">&#10005;</a>
+            <h3 class="right-color">The right Color is <span class="right-square">The Second Square</span>square</h3>
+        </div>
+    </div>
+
+</body>
+<script src="todo.js"></script>
+
+</html>
